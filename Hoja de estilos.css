@@ -1,0 +1,117 @@
+body {
+    background-color: rgb(219, 222, 224);
+}
+
+img {
+    border: 5px solid rgba(78, 81, 87, 0.871)
+}
+
+h1 {
+    font-family: broadway;
+    font-size: 30px;
+    text-align: center;
+    color: rgb(200, 230, 235);
+}
+
+h2 {
+    font-family: Rockwell Nova Light;
+    font-size: 20px;
+    text-align: left;
+    color: rgb(200, 230, 235);
+    padding-left: 25px;
+}
+
+h4 {
+    font-family: Rockwell Nova Light;
+    font-size: 15px;
+    text-align: bottom;
+    color: rgb(249, 249, 250);
+}
+
+p {
+    font-family: Rockwell Nova Light;
+    font-size: 20px;
+    font-style: italic;
+    text-align: center;
+    color: rgb(200, 230, 235);
+}
+
+.A {
+    font-family: Rockwell Nova Light;
+    font-size: 20px;
+    color: rgb(26, 53, 107);
+}
+
+.B {
+    font-family: Rockwell Nova Light;
+    font-size: 30px;
+    text-align: left;
+    text-decoration: underline;
+    color: rgb(26, 53, 107);
+    padding-left: 30px;
+    border-bottom: 15px;
+    border-color: rgb(9, 30, 38);
+
+}
+
+.C {
+    font-family: Rockwell Nova Light;
+    font-size: 20px;
+    color: rgb(26, 53, 107);
+}
+
+.D {
+    background-color: rgb(26, 53, 107);
+    font-family: Rockwell Nova Light;
+    font-size: 35px;
+    text-align: center;
+    color: rgb(200, 230, 235);
+}
+
+#caja-foto {
+    background-color: rgb(26, 53, 107);
+    top: 15px;
+    text-align: left;
+    width: 308px;
+    height: 420px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+}
+
+#caja-1 {
+    background-color: rgb(112, 143, 155);
+    text-align: left;
+    width: 323px;
+    height: 630px;
+    padding: 15px;
+    padding-left: 15px;
+}
+
+#caja-2 {
+    position: absolute;
+    top: 8px;
+    left: 346px;
+    right: 345px;
+    height: 561px;
+    text-align: left;
+    border-top: 15px solid rgb(112, 143, 155);
+    border-left: 15px solid rgb(112, 143, 155);
+    border-bottom: 15px solid rgb(112, 143, 155);
+    padding-top: 70px;
+    padding-right: 15px;
+    padding-left: 40px;
+}
+
+#caja-3 {
+    background-color: rgb(112, 143, 155);
+    position: absolute;
+    top: 8px;
+    right: 15px;
+    height: 560px;
+    width: 300px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 100px;
+
+}
