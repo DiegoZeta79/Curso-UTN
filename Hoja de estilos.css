@@ -1,117 +1,165 @@
-body {
-    background-color: rgb(219, 222, 224);
-}
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
 
-img {
-    border: 5px solid rgba(78, 81, 87, 0.871)
+
+body {
+    background: linear-gradient(to right, rgb(184, 220, 232), rgb(114, 161, 172));
 }
 
 h1 {
-    font-family: broadway;
-    font-size: 30px;
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 100;
+    font-size: 50px;
     text-align: center;
     color: rgb(200, 230, 235);
 }
 
 h2 {
-    font-family: Rockwell Nova Light;
-    font-size: 20px;
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 500;
+    font-size: 22px;
     text-align: left;
     color: rgb(200, 230, 235);
     padding-left: 25px;
+
 }
 
 h4 {
-    font-family: Rockwell Nova Light;
-    font-size: 15px;
-    text-align: bottom;
+    position: relative;
+    bottom: 105px;
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    text-align: left;
+    padding-right: 10px;
+    padding-left: 112px;
     color: rgb(249, 249, 250);
+
+}
+
+a {
+    font-size: 20px;
+    color: rgb(38, 38, 153);
+    text-decoration: none;
+}
+
+img {
+    box-shadow: 0 2px 5px #5d5e60;
+    border-radius: 3px;
 }
 
 p {
-    font-family: Rockwell Nova Light;
-    font-size: 20px;
+    font-family: "Rajdhani", sans-serif;
     font-style: italic;
+    font-size: 20px;
     text-align: center;
     color: rgb(200, 230, 235);
 }
 
 .A {
-    font-family: Rockwell Nova Light;
-    font-size: 20px;
+    font-family: "Rajdhani", sans-serif;
+    font-style: italic;
+    font-size: 22px;
     color: rgb(26, 53, 107);
 }
 
 .B {
-    font-family: Rockwell Nova Light;
-    font-size: 30px;
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 500;
+    font-size: 40px;
     text-align: left;
     text-decoration: underline;
     color: rgb(26, 53, 107);
     padding-left: 30px;
-    border-bottom: 15px;
-    border-color: rgb(9, 30, 38);
-
+    
 }
 
 .C {
-    font-family: Rockwell Nova Light;
-    font-size: 20px;
+    font-family: "Rajdhani", sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 25px;
     color: rgb(26, 53, 107);
 }
 
 .D {
+
     background-color: rgb(26, 53, 107);
-    font-family: Rockwell Nova Light;
-    font-size: 35px;
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 100;
+    font-size: 40px;
     text-align: center;
-    color: rgb(200, 230, 235);
+    color: #c8e6eb;
+    box-shadow: 0 2px 5px #5d5e60;
+    border-radius: 5px;
+}
+
+.fa-regular {
+    color: rgb(26, 53, 107);
+    font-size: 70px;
+    margin: 12px;
+
 }
 
 #caja-foto {
     background-color: rgb(26, 53, 107);
-    top: 15px;
     text-align: left;
     width: 308px;
     height: 420px;
     padding-left: 5px;
     padding-right: 5px;
     padding-top: 5px;
+    box-shadow: 0 2px 5px #5d5e60;
+    border-radius: 5px;
 }
 
 #caja-1 {
+
     background-color: rgb(112, 143, 155);
     text-align: left;
     width: 323px;
     height: 630px;
     padding: 15px;
     padding-left: 15px;
+    box-shadow: 0 2px 5px #5d5e60;
+    border-radius: 3px;
 }
 
 #caja-2 {
+
     position: absolute;
     top: 8px;
     left: 346px;
     right: 345px;
     height: 561px;
     text-align: left;
-    border-top: 15px solid rgb(112, 143, 155);
-    border-left: 15px solid rgb(112, 143, 155);
-    border-bottom: 15px solid rgb(112, 143, 155);
-    padding-top: 70px;
+    padding-top: 40px;
     padding-right: 15px;
     padding-left: 40px;
 }
 
 #caja-3 {
+
     background-color: rgb(112, 143, 155);
     position: absolute;
     top: 8px;
     right: 15px;
-    height: 560px;
+    height: 581px;
     width: 300px;
     padding-left: 15px;
     padding-right: 15px;
-    padding-top: 100px;
+    padding-top: 80px;
+    box-shadow: 0 2px 5px #5d5e60;
+    border-radius: 3px;
+
+}
+
+
+#caja-link {
+    padding-left: 10px;
+    width: 290px;
+    height: 90px;
+    background-color: rgb(110, 110, 118);
+    box-shadow: 0 2px 5px #5d5e60;
+
 
 }
